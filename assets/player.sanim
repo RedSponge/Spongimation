@@ -1,0 +1,60 @@
+{
+  "atlas": "player.atlas",
+  "animations": {
+    "idle": {
+      "play_mode": "LOOP_PINGPONG",
+      "frames": [
+        {
+          "frame": "idle",
+          "idx": 1,
+          "length": 300
+        },
+        {
+          "frame": "idle",
+          "idx": 3,
+          "length": 200
+        },
+        {
+          "frame": "idle",
+          "idx": 5,
+          "length": 200
+        }
+      ]
+    },
+    "attack_up": {
+      "play_mode": "LOOP",
+      "frames": [
+        {
+          "frame": "attack_up",
+          "idx": 1,
+          "length": 100
+        },
+        {
+          "frame": "attack_up",
+          "idx": 2,
+          "length": 100
+        },
+        {
+          "frame": "attack_up",
+          "idx": 3,
+          "length": 100
+        },
+        {
+          "frame": "attack_up",
+          "idx": 4,
+          "length": 100
+        },
+        {
+          "frame": "attack_up",
+          "idx": 5,
+          "length": 500
+        },
+        {
+          "frame": "attack_up",
+          "idx": 10,
+          "length": 100
+        }
+      ]
+    }
+  }
+}
